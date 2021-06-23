@@ -28,7 +28,7 @@ var button = d3.select("#filter-btn");
 button.on("click", runEnter);
 form.on("submit", runEnter);
 
-// Function to run events
+// make function to run events
 function runEnter () {
     d3.event.preventDefault();
 
